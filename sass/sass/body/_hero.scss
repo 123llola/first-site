@@ -1,0 +1,44 @@
+.mmain2 {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    justify-content: space center;
+   
+    .mmain{
+        display: flex;
+        align-items: flex-start;
+        gap: 50px;
+        flex-direction: column;
+        h4{
+            font-size: 32px;
+            font-weight: 700px;
+            line-height: 48px;
+            max-width: 248px;
+        }
+        
+        .line{
+        width: 50px;
+        height: 4px;
+        background: black;
+    }
+    p{
+        color: #7d7987;
+        font-size: 18px;
+        line-height: 18px;
+        font-weight: 300px;
+        max-width: 420px;
+    }
+    button{
+        font-size: 18px;
+        font-weight: 700;
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        padding: 15px 25px;
+        color: aqua;
+        border: 1px solid #458ff6;
+        background: #fff;
+        border-radius: 30px;
+    }
+  }
+  }

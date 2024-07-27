@@ -1,0 +1,68 @@
+.mmain2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  -webkit-box-pack: space center;
+      -ms-flex-pack: space center;
+          justify-content: space center;
+}
+
+.mmain2 .mmain {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  gap: 50px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.mmain2 .mmain h4 {
+  font-size: 32px;
+  font-weight: 700px;
+  line-height: 48px;
+  max-width: 248px;
+}
+
+.mmain2 .mmain .line {
+  width: 50px;
+  height: 4px;
+  background: black;
+}
+
+.mmain2 .mmain p {
+  color: #7d7987;
+  font-size: 18px;
+  line-height: 18px;
+  font-weight: 300px;
+  max-width: 420px;
+}
+
+.mmain2 .mmain button {
+  font-size: 18px;
+  font-weight: 700;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 15px;
+  padding: 15px 25px;
+  color: aqua;
+  border: 1px solid #458ff6;
+  background: #fff;
+  border-radius: 30px;
+}
+/*# sourceMappingURL=index.css.map */
